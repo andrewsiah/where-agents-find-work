@@ -1,0 +1,39 @@
+{
+  "platform": "Gitcoin Bounties",
+  "listEndpoint": "https://gitcoin.co/bounties",
+  "agentEligibility": "Unknown for current agent fixed-work bounty product; grants are a distinct workflow.",
+  "countBasis": "Current bounty path 404; current site is not a live fixed-work bounty inventory. No global zero inferred.",
+  "openCountUsd1": null,
+  "agentNoPurchaseCountUsd1": null,
+  "proofQuality": "not_verified_current_product",
+  "proofMethod": "Legacy payouts/grants are not evidence of current claimable agent bounty work. No individual current bounty payout checked.",
+  "termsUrl": "https://gitcoin.co/terms",
+  "termsQuote": "Activity that involves data mining, robots, scraping, or similar data gathering or extraction methods of content or information from any of our Products.",
+  "termsNote": "Explicit prohibited activity under Data Mining or Scraping. Do not add current product scraper.",
+  "proofExample": {
+    "detail": "https://gitcoin.co",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://gitcoin.co/bounties",
+      "checkedAt": "2026-11-09T15:34:47.240Z",
+      "status": 404,
+      "sha256": "95565ab823cce8752caa862603152dddf06ea069a15531c3926792c6c00055af"
+    },
+    {
+      "url": "https://gitcoin.co/terms",
+      "checkedAt": "2026-11-09T15:30:15.463Z",
+      "status": 200,
+      "sha256": "4e18390b8cfa8b1bb42891814b7e6c21a09dcb9c2d5905610a5d3fb6d20e9c53"
+    },
+    {
+      "url": "https://gitcoin.co/",
+      "checkedAt": "2026-11-09T15:27:29.492Z",
+      "status": 200,
+      "sha256": "5b210eafe4c4849572cbc5a00203fe6b70837ad75681b690550ba659d56a4e34"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "platform": "Licium",
+  "listEndpoint": "https://www.licium.ai/v1/bounties?status=open&limit=100",
+  "agentEligibility": "Agent handle/key registration and private Base payout address documented; no email/KYC/stake required in inspected agent workflow. Payment may originate in card or x402; fee 10%, preserve net.",
+  "countBasis": "26 open rows, all amount_usd=0 and solver_payout_usd=0; truncated=false. Zero $1+ offers.",
+  "openCountUsd1": 0,
+  "agentNoPurchaseCountUsd1": 0,
+  "proofQuality": "first_party_paid_record",
+  "proofMethod": "GET accepted bounty detail; paid_out_usd>0 plus status=accepted and solved_url. Example amount_usd=133, solver_payout_usd=120, fee_usd=13, paid_out_usd=133. No public tx hash in inspected response, so not independently settled proof.",
+  "termsUrl": "https://www.licium.ai/terms",
+  "termsQuote": "Bounty descriptions are public.",
+  "termsNote": "Public descriptions and robots Allow: / are not an explicit republication license. Terms prohibit overloading the service. Private/internal APIs disallowed by robots.",
+  "proofExample": {
+    "detail": "https://www.licium.ai/v1/bounties/8442b1c8-9710-466a-a519-6422335294ed",
+    "amount": "133 USD gross / 120 USD solver payout shown"
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://www.licium.ai/v1/bounties?status=open&limit=100",
+      "checkedAt": "2026-11-09T15:32:19.478Z",
+      "status": 200,
+      "sha256": "07ff77c35567682e2e0e96d5a9e225329b666d0577172fd96784eee2c9d4fd41"
+    },
+    {
+      "url": "https://www.licium.ai/terms",
+      "checkedAt": "2026-11-09T15:28:47.093Z",
+      "status": 200,
+      "sha256": "1f7b5eb52145e7191405fd57c6d6b9422f90e5274733f5a3c7c8bc5f7e81a564"
+    },
+    {
+      "url": "https://www.licium.ai/v1/bounties/8442b1c8-9710-466a-a519-6422335294ed",
+      "checkedAt": "2026-11-09T15:30:16.106Z",
+      "status": 200,
+      "sha256": "d9f328a4948b0eb8bb821dd108a5e2570cb7f06ae7876b287ff68fa257cc1ed6"
+    },
+    {
+      "url": "https://www.licium.ai/skill.md",
+      "checkedAt": "2026-11-09T15:29:23.533Z",
+      "status": 200,
+      "sha256": "0a3838271b52ac82dc143cd9b3ceb2230afe2f32c43105f97c4450a0f4b8d773"
+    }
+  ],
+  "payoutQuote": "Set the Base wallet that should receive USDC."
+}

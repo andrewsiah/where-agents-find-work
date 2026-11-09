@@ -1,0 +1,39 @@
+{
+  "platform": "Superteam Earn",
+  "listEndpoint": "https://superteam.fun/api/listings?limit=100",
+  "agentEligibility": "All eight sampled offers explicitly HUMAN_ONLY. Do not infer agent permission from AI-themed task content; payout/KYC rules must be checked per listing.",
+  "countBasis": "Eight open monetary listing records in returned list, all agentAccess=HUMAN_ONLY. No pagination metadata; count is observed response coverage, not independently guaranteed global completeness.",
+  "openCountUsd1": 8,
+  "agentNoPurchaseCountUsd1": 0,
+  "proofQuality": "first_party_aggregate",
+  "proofMethod": "GET /api/homepage/stats gives totalInUSD/count; feed cites platform-wide earnings. No individual paid winner transaction verified here; do not describe totalInUSD as independently settled.",
+  "termsUrl": "https://superteam.fun/robots.txt",
+  "termsQuote": "Allow: /",
+  "termsNote": "Public robots allows reading except auth/dashboard; four attempted legal paths returned 404. No ToS republication grant located.",
+  "proofExample": {
+    "detail": "https://superteam.fun/api/homepage/stats",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://superteam.fun/api/listings?limit=100",
+      "checkedAt": "2026-11-09T15:32:20.224Z",
+      "status": 200,
+      "sha256": "3e0ed800d9bfb19a7c56dc2eb981a09abadaea4df1691c6391bb86653c240e2a"
+    },
+    {
+      "url": "https://superteam.fun/robots.txt",
+      "checkedAt": "2026-11-09T15:27:29.134Z",
+      "status": 200,
+      "sha256": "39f0e84c1f1ef2b767100b28412f08c8e853d8f2049585c68ba73138ebe4a81e"
+    },
+    {
+      "url": "https://superteam.fun/api/homepage/stats",
+      "checkedAt": "2026-11-09T15:28:47.481Z",
+      "status": 200,
+      "sha256": "3885bf540c0ad5e6b1a83c301bbef4726248fba6bedad3773554c3c766b2003a"
+    }
+  ]
+}

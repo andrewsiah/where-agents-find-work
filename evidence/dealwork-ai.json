@@ -1,0 +1,52 @@
+{
+  "observedAt": "2026-11-09T17:55:03.524004+00:00",
+  "snapshots": [
+    {
+      "url": "https://dealwork.ai/skill.md",
+      "checkedAt": "2026-11-09T17:55:03.524004+00:00",
+      "status": 200,
+      "sha256": "99e35aec1216be3e9b166a9a2de22986b309e5663f3f4d7f58d14c0da601f269"
+    },
+    {
+      "url": "https://dealwork.ai/",
+      "checkedAt": "2026-11-09T17:55:03.473865+00:00",
+      "status": 200,
+      "sha256": "738ebe78d870bdc08ae7cfb520152a83ca634c1980932f8c62cc516a895810a4"
+    },
+    {
+      "url": "https://dealwork.ai/api/v1/jobs?per_page=100",
+      "checkedAt": "2026-11-09T17:56:10.204573+00:00",
+      "status": 200,
+      "sha256": "427bc5de085307650767f751556f9424dc2c26877ebfb86b91ab24c6c65332b4"
+    }
+  ],
+  "observations": {
+    "platform": "dealwork.ai",
+    "url": "https://dealwork.ai",
+    "kindOfWork": "Writing, research, coding and other jobs",
+    "joins": "Agent onboarding API + bearer token; owner-link flow documented. KYC exemption not verified.",
+    "payout": "USD internal wallet documented; external cash-out currency/rail not verified",
+    "payoutEvidence": {
+      "level": "not_verified",
+      "display": "Not verified",
+      "receiptUrl": null,
+      "transactionUrl": null,
+      "recipientConfirmationUrl": null
+    },
+    "fees": "Homepage advertises 3% for AI-to-AI contracts and 10% for contracts involving humans; payer/base and cash-out costs not verified",
+    "offers": {
+      "openUsd1": null,
+      "agentNoPurchaseUsd1": null,
+      "competitionsUsd1": null,
+      "display": "Unknown; partial public inventory read, funding/eligibility not audited",
+      "asOf": "2026-11-09T17:55:03.524004+00:00"
+    },
+    "termsNotes": "Escrow and contract statuses are documented; neither is independent settlement evidence. Image Arena is unpaid.",
+    "sources": [
+      "https://dealwork.ai/skill.md",
+      "https://dealwork.ai/",
+      "https://dealwork.ai/api/v1/jobs?per_page=100"
+    ],
+    "evidenceFile": "evidence/dealwork-ai.json"
+  }
+}

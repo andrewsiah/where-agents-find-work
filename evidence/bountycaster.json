@@ -1,0 +1,39 @@
+{
+  "platform": "Bountycaster",
+  "listEndpoint": "https://www.bountycaster.xyz/api/bounties?status=open",
+  "agentEligibility": "Farcaster/X identity and verified receiving address may apply; no autonomous-agent eligibility or blanket no-KYC claim verified.",
+  "countBasis": "Attempted API and feed.xml are 404; homepage is a client shell with no verified list payload. No total or open count defensible.",
+  "openCountUsd1": null,
+  "agentNoPurchaseCountUsd1": null,
+  "proofQuality": "not_verified",
+  "proofMethod": "FAQ says funds paid peer to peer; no actual paid bounty/transaction independently verified in this pass. Require individual cast/bounty ID, paid label and chain receipt.",
+  "termsUrl": "https://www.bountycaster.xyz/terms",
+  "termsQuote": null,
+  "termsNote": "/terms returned HTTP 200 but body is a client shell with no substantive terms. robots/about/API/feed attempted paths unavailable. No ToS quote found.",
+  "proofExample": {
+    "detail": "https://www.bountycaster.xyz/faq",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://www.bountycaster.xyz/api/bounties?status=open",
+      "checkedAt": "2026-11-09T15:29:25.363Z",
+      "status": 404,
+      "sha256": "5547992afdadb59737c5c0feb1a35dff294cd27145bf290c031737ecf8a2577d"
+    },
+    {
+      "url": "https://www.bountycaster.xyz/terms",
+      "checkedAt": "2026-11-09T15:28:47.320Z",
+      "status": 200,
+      "sha256": "ff43fe2988f1f7a1953f2563bee69f0533cbe3a13eb9b0e11e8588eed4366b4d"
+    },
+    {
+      "url": "https://www.bountycaster.xyz/faq",
+      "checkedAt": "2026-11-09T15:30:15.969Z",
+      "status": 200,
+      "sha256": "f83ba518a8e8c81962fb90999ea0077752b863ab6a1a1300d8db752358d54263"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "observedAt": "2026-11-09T17:56:10.202739+00:00",
+  "snapshots": [
+    {
+      "url": "https://task-bounty.com/terms",
+      "checkedAt": "2026-11-09T17:56:10.202739+00:00",
+      "status": 200,
+      "sha256": "8183085abfb6f94d5c8ba05d3afdedefbe14c5e17e57b847a9a106184289c429"
+    },
+    {
+      "url": "https://task-bounty.com/pricing",
+      "checkedAt": "2026-11-09T17:56:10.202217+00:00",
+      "status": 200,
+      "sha256": "ced401b7564f36d6541acfb0a8bb28f6759b99267071e0d6476b1e0b673d4c0e"
+    },
+    {
+      "url": "https://task-bounty.com/tasks",
+      "checkedAt": "2026-11-09T17:56:10.203405+00:00",
+      "status": 200,
+      "sha256": "835dd522cf32052d68df8cc091a6f513e4e0ee5486723b7275dc38267d77366e"
+    },
+    {
+      "url": "https://task-bounty.com/board/skill.md",
+      "checkedAt": "2026-11-09T17:55:40.672223+00:00",
+      "status": 200,
+      "sha256": "13b2fa9a12f80144d78c13f968cd9daee0675563130beef1efa18b44561347cd"
+    }
+  ],
+  "observations": {
+    "platform": "TaskBounty",
+    "url": "https://task-bounty.com",
+    "kindOfWork": "Paid marketplace jobs; separate unpaid board collaboration",
+    "joins": "Board API/MCP needs no account/key; paid work uses operator account and confirmed payout eligibility",
+    "payout": "Card/crypto funding documented; worker payout method and network require confirmation",
+    "payoutEvidence": {
+      "level": "not_verified",
+      "display": "Not verified",
+      "receiptUrl": null,
+      "transactionUrl": null,
+      "recipientConfirmationUrl": null
+    },
+    "fees": "Standard bounties: 20%; qualifying shared-link general-work quotes: 10%; waivers/quote terms may apply",
+    "offers": {
+      "openUsd1": null,
+      "agentNoPurchaseUsd1": null,
+      "competitionsUsd1": null,
+      "display": "Unknown; no complete paid-job inventory counted",
+      "asOf": "2026-11-09T17:56:10.202739+00:00"
+    },
+    "termsNotes": "Unpaid board tasks are separate from funded jobs. Funding assets are not proof of a supported worker cash-out rail.",
+    "sources": [
+      "https://task-bounty.com/terms",
+      "https://task-bounty.com/pricing",
+      "https://task-bounty.com/tasks",
+      "https://task-bounty.com/board/skill.md"
+    ],
+    "evidenceFile": "evidence/taskbounty.json"
+  }
+}

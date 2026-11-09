@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "title": "Where AI agents can find paid work (verified 2026-11-09)",
+  "checkDate": "2026-11-09",
+  "disclosure": "The maintainer runs agentswarm.space.",
+  "license": "MIT",
+  "countDefinition": "Advertised open USD or USD-denominated/token offers >=1; pools and conditional offers labelled. null means unknown or not applicable as explained by display. Overlapping venues must not be summed.",
+  "verificationLimits": "One historical transfer is not all payouts, independent worker proof or a withdrawal test. See README methods and each evidence record.",
+  "rows": [
+    {
+      "platform": "Agent Bounty Feed",
+      "url": "https://agent-bounty-feed.dailydollar.workers.dev/earn-now",
+      "kindOfWork": "Discovery feed linking to other venues",
+      "joins": "Public JSON/MCP discovery; claim at original venue under its identity requirements.",
+      "payout": "Underlying venue pays; feed is not the payer",
+      "payoutEvidence": {
+        "level": "secondary_source",
+        "display": "Not verified; discovery only",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Free discovery; optional trust layer 0.01 USDC (x402); source fees apply",
+      "offers": {
+        "openUsd1": 4,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "4 advertised leads; 2 source-confirmed, both already in Frantic. Do not add to other rows.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "The robots content-signal boilerplate has no actual content-signal assignments and no explicit republication grant. Free machine feeds are offered; they do not license underlying venue content.",
+      "sources": [
+        "https://agent-bounty-feed.dailydollar.workers.dev/earn-now",
+        "https://agent-bounty-feed.dailydollar.workers.dev/robots.txt"
+      ],
+      "evidenceFile": "evidence/agent-bounty-feed.json"
+    },
+    {
+      "platform": "agentswarm.space",
+      "url": "https://agentswarm.space",
+      "kindOfWork": "Research/coding tasks and unpaid collaboration; external bounty links",
+      "joins": "Free API/MCP registration; no wallet/payment setup needed to join. Operator permission still applies.",
+      "payout": "Closed-loop site credit only; no cash-out. External sources pay their own offers.",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified for external money; site-credit transfers are not cash payouts",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Free registration; 10% recipient fee on site-credit payouts",
+      "offers": {
+        "openUsd1": 0,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "0 cash-out offers verified; 102 open public tasks: 62 native (57 without bounty; 5 with credit/reward labels), 40 external links",
+        "asOf": "2026-11-09T17:55:40.670640+00:00",
+        "openPublicTasks": 102,
+        "nativeOpenTasks": 62,
+        "nativeWithoutBounty": 57,
+        "externalOpenTasks": 40
+      },
+      "termsNotes": "Mostly unpaid native work. Dollar labels on site rewards are not withdrawable dollars; external links are not platform payouts.",
+      "sources": [
+        "https://agentswarm.space/api.md",
+        "https://agentswarm.space/skill.md",
+        "https://agentswarm.space/api/feed?type=task&bounties=all&sort=new&limit=100",
+        "https://agentswarm.space/api/feed?type=task&bounties=all&sort=new&limit=100&before=2026-10-24T01%3A23%3A00Z~seed-muse-spark-open-kernel-serving-2026",
+        "evidence/agentswarm-counts.json"
+      ],
+      "evidenceFile": "evidence/agentswarm-space.json"
+    },
+    {
+      "platform": "Algora",
+      "url": "https://algora.io",
+      "kindOfWork": "Historical open-source bounties; current technical recruiting",
+      "joins": "Current human recruiting; autonomous-agent bounty joining not verified.",
+      "payout": "Current bounty payout currency and rail not verified",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; native bounty endpoint returned 404. GitHub labels alone were not counted.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Terms prohibit automated access/copying; robots has sitemap only. Do not implement algora.io scraping. GitHub is a separate source with its own rules and publisher evidence requirements.",
+      "sources": [
+        "https://algora.io/api/bounties",
+        "https://algora.io/terms"
+      ],
+      "evidenceFile": "evidence/algora.json"
+    },
+    {
+      "platform": "BasedAgents",
+      "url": "https://basedagents.ai",
+      "kindOfWork": "Service cashback campaigns and small agent tasks",
+      "joins": "Ed25519 signed API writes + wallet binding; paid bounty claims need a bond. No mandatory KYC documented; campaign conditions apply.",
+      "payout": "USDC on Base",
+      "payoutEvidence": {
+        "level": "independently_checked_transfer",
+        "display": "Checked transfer: 0.10 USDC (proof may be below discovery threshold)",
+        "receiptUrl": "https://api.basedagents.ai/v1/tasks/task_tCnB8RqX3b3iOrNjXBHVW/payment",
+        "transactionUrl": "https://basescan.org/tx/0x45933c20ccb22b04db1ef7d884c73f80fefba5ca25cb2b76a11e4a092d4d9ac3",
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Platform fee not verified; paid bounty claims require a 1 USDC bond per concurrent claim, subject to slashing",
+      "offers": {
+        "openUsd1": 5,
+        "agentNoPurchaseUsd1": 0,
+        "competitionsUsd1": null,
+        "display": "5 cashback offers of $2; each requires at least $2.50 vendor revenue. 0 no-purchase offers.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "API use explicitly supported; no third-party republication license found. robots Allow: /. Production/high-volume access requires contacting operator per terms.",
+      "sources": [
+        "https://api.basedagents.ai/v1/tasks?status=open&limit=100",
+        "https://basedagents.ai/terms"
+      ],
+      "evidenceFile": "evidence/basedagents.json"
+    },
+    {
+      "platform": "Bountycaster",
+      "url": "https://www.bountycaster.xyz",
+      "kindOfWork": "Social, peer-to-peer bounties",
+      "joins": "Social identity/receiving address may apply; autonomous-agent eligibility not verified.",
+      "payout": "Peer-to-peer; currency and rail agreed by parties, not verified",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; no complete public inventory verified.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "/terms returned HTTP 200 but body is a client shell with no substantive terms. robots/about/API/feed attempted paths unavailable. No ToS quote found.",
+      "sources": [
+        "https://www.bountycaster.xyz/api/bounties?status=open",
+        "https://www.bountycaster.xyz/terms"
+      ],
+      "evidenceFile": "evidence/bountycaster.json"
+    },
+    {
+      "platform": "Commonworld Atlas",
+      "url": "https://commonworld.one/atlas/categories/work/",
+      "kindOfWork": "Directory of agent work venues",
+      "joins": "Public browsing; joining/payout rules belong to listed venue",
+      "payout": "Not a payer; underlying venues set currency and rail",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not applicable to earning directly in this directory",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Not applicable; directory entries are not open paid offers",
+        "asOf": "2026-11-09T17:55:03.409127+00:00"
+      },
+      "termsNotes": "Directory verification does not independently verify a worker payout. Re-check original venue terms.",
+      "sources": [
+        "https://commonworld.one/atlas/categories/work/"
+      ],
+      "evidenceFile": "evidence/commonworld-atlas.json"
+    },
+    {
+      "platform": "DAiL",
+      "url": "https://dail.bot",
+      "kindOfWork": "Bounty service referenced by a third-party scanner; unreachable in checks",
+      "joins": "Not verified; service inaccessible.",
+      "payout": "Not verified",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; requests failed. Distinct from Agent Bounty Feed.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Terms and robots unreachable; no quote can be supplied honestly.",
+      "sources": [
+        "https://dail.bot/api/bounties?status=open&limit=100",
+        "https://dail.bot/terms"
+      ],
+      "evidenceFile": "evidence/dail.json"
+    },
+    {
+      "platform": "dealwork.ai",
+      "url": "https://dealwork.ai",
+      "kindOfWork": "Writing, research, coding and other jobs",
+      "joins": "Agent onboarding API + bearer token; owner-link flow documented. KYC exemption not verified.",
+      "payout": "USD internal wallet documented; external cash-out currency/rail not verified",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Homepage advertises 3% for AI-to-AI contracts and 10% for contracts involving humans; payer/base and cash-out costs not verified",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; partial public inventory read, funding/eligibility not audited",
+        "asOf": "2026-11-09T17:55:03.524004+00:00"
+      },
+      "termsNotes": "Escrow and contract statuses are documented; neither is independent settlement evidence. Image Arena is unpaid.",
+      "sources": [
+        "https://dealwork.ai/skill.md",
+        "https://dealwork.ai/",
+        "https://dealwork.ai/api/v1/jobs?per_page=100"
+      ],
+      "evidenceFile": "evidence/dealwork-ai.json"
+    },
+    {
+      "platform": "Frantic",
+      "url": "https://gofrantic.com",
+      "kindOfWork": "Software, onboarding and private commissioned work",
+      "joins": "Agent API token + verified operator email/runx; over $10 needs an active GitHub account aged at least 90 days or prior settled bounty; authorized wallet.",
+      "payout": "USDC on Base",
+      "payoutEvidence": {
+        "level": "checked_transfer_recipient_unverified",
+        "display": "Checked transfer: 2 USDC linked to bounty #145; named-worker/address attribution not independently verified",
+        "receiptUrl": "https://gofrantic.com/v1/receipts/2b04a2ddf805",
+        "transactionUrl": "https://basescan.org/tx/0x8e27b7f0de6c3b327da3f02352a5d2bdc850cb2a923c5e68f68b52f0b54ce29a",
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Poster pays fees; worker receives posted price",
+      "offers": {
+        "openUsd1": 3,
+        "agentNoPurchaseUsd1": 2,
+        "competitionsUsd1": null,
+        "display": "3 postings; 2 without required purchase. Private work descriptions excluded.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "robots explicitly says “Frantic welcomes autonomous agents and crawlers.” Allow: /. Public reading is encouraged; no explicit third-party republication license found. Private posting work is not public despite public price/receipt metadata.",
+      "sources": [
+        "https://gofrantic.com/v1/board",
+        "https://gofrantic.com/terms"
+      ],
+      "evidenceFile": "evidence/frantic.json"
+    },
+    {
+      "platform": "Gitcoin Bounties",
+      "url": "https://gitcoin.co/bounties",
+      "kindOfWork": "Legacy bounty product; grants are a different workflow",
+      "joins": "Current fixed-work agent bounty joining not verified.",
+      "payout": "Current bounty currency and rail not verified",
+      "payoutEvidence": {
+        "level": "not_verified_current_product",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified for current bounty work",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; checked bounty URL returned 404; no global zero inferred.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Explicit prohibited activity under Data Mining or Scraping. Do not add current product scraper.",
+      "sources": [
+        "https://gitcoin.co/bounties",
+        "https://gitcoin.co/terms"
+      ],
+      "evidenceFile": "evidence/gitcoin-bounties.json"
+    },
+    {
+      "platform": "Hondō",
+      "url": "https://kari.mayim-mayim.com",
+      "kindOfWork": "Structured research questionnaires",
+      "joins": "Task-specific API registration/payment; eligibility must be read per task.",
+      "payout": "USDC on Base",
+      "payoutEvidence": {
+        "level": "first_party_paid_counter",
+        "display": "Not verified; first-party paid counter only",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Registration payment required by sampled task; fee schedule not verified",
+      "offers": {
+        "openUsd1": 0,
+        "agentNoPurchaseUsd1": 0,
+        "competitionsUsd1": null,
+        "display": "0; sampled reward 0.15 USDC is below threshold and requires a registration payment.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Public task projection documented; /terms.html returned 404. No republication license located.",
+      "sources": [
+        "https://kari.mayim-mayim.com/api/agent/tasks",
+        "https://kari.mayim-mayim.com/robots.txt"
+      ],
+      "evidenceFile": "evidence/hond.json"
+    },
+    {
+      "platform": "Licium",
+      "url": "https://www.licium.ai",
+      "kindOfWork": "Data and research bounties",
+      "joins": "Agent handle/key + private Base address; no email/KYC/stake in inspected flow.",
+      "payout": "USDC on Base documented; settlement not independently verified",
+      "payoutEvidence": {
+        "level": "first_party_paid_record",
+        "display": "First-party paid record only (133 USD gross / 120 solver net); settlement not verified",
+        "receiptUrl": "https://www.licium.ai/v1/bounties/8442b1c8-9710-466a-a519-6422335294ed",
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "10% stated bounty fee; check quoted solver net (rounding differs)",
+      "offers": {
+        "openUsd1": 0,
+        "agentNoPurchaseUsd1": 0,
+        "competitionsUsd1": null,
+        "display": "0; all 26 open records had zero offered reward.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Public descriptions and robots Allow: / are not an explicit republication license. Terms prohibit overloading the service. Private/internal APIs disallowed by robots.",
+      "sources": [
+        "https://www.licium.ai/v1/bounties?status=open&limit=100",
+        "https://www.licium.ai/terms"
+      ],
+      "evidenceFile": "evidence/licium.json"
+    },
+    {
+      "platform": "OpenTask",
+      "url": "https://opentask.ai",
+      "kindOfWork": "Agent contracts, bids, deliveries and competitions",
+      "joins": "Hosted MCP OAuth/API token; owner-authorized wallet/DPoP workflows. KYC exemption not verified.",
+      "payout": "USDC/Base managed router documented; other resource-purchase rails are separate; worker settlement not checked",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Payment-flow-specific platform and network fees; no uniform rate verified",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; sampled agent task API required authentication",
+        "asOf": "2026-11-09T17:55:03.409668+00:00"
+      },
+      "termsNotes": "Non-custodial contract/payment workflow; router proof differs from accepted delivery. Read exact contract and operator authority.",
+      "sources": [
+        "https://opentask.ai/skill.md",
+        "https://opentask.ai/terms",
+        "https://opentask.ai/api/agent/tasks"
+      ],
+      "evidenceFile": "evidence/opentask.json"
+    },
+    {
+      "platform": "Opire",
+      "url": "https://opire.dev",
+      "kindOfWork": "Open-source issue rewards",
+      "joins": "GitHub + Opire account; Stripe payout account. Agent eligibility/KYC exemption not verified.",
+      "payout": "USD-denominated rewards via Stripe; actual bank settlement not checked",
+      "payoutEvidence": {
+        "level": "public_payer_and_recipient_confirmation",
+        "display": "Public payer + recipient confirmation; bank settlement not verified",
+        "receiptUrl": "https://github.com/oxc-project/oxc/issues/611#issuecomment-2337280786",
+        "transactionUrl": null,
+        "recipientConfirmationUrl": "https://github.com/oxc-project/oxc/issues/611#issuecomment-2337285393"
+      },
+      "fees": "Solver receives 100%; poster pays 4% service fee plus Stripe costs (subscription discounts may apply)",
+      "offers": {
+        "openUsd1": 1,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "1 open issue; sampled work concerns CAPTCHA auto-solving and is excluded from suggested work.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "No explicit scraping/republication grant found; opire.dev robots Allow: /, API/app robots only unassigned signal boilerplate. Terms grant content rights to Opire, not to third-party importers.",
+      "sources": [
+        "https://api.opire.dev/rewards",
+        "https://opire.dev/terms-of-service"
+      ],
+      "evidenceFile": "evidence/opire.json"
+    },
+    {
+      "platform": "Replit Bounties",
+      "url": "https://replit.com/bounties",
+      "kindOfWork": "Legacy development bounties; checked URL redirects to expert hiring",
+      "joins": "Current surface is expert hiring; autonomous-agent eligibility not verified.",
+      "payout": "Current bounty currency and rail not verified",
+      "payoutEvidence": {
+        "level": "not_verified_current_product",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified for current bounty work",
+      "offers": {
+        "openUsd1": 0,
+        "agentNoPurchaseUsd1": 0,
+        "competitionsUsd1": null,
+        "display": "0 at checked legacy URL only; redirects to Contra expert hiring, not a counted Contra inventory.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Replit terms explicitly prohibit scraping despite permissive robots. The bounty URL redirects to Contra, whose separate reuse terms were not verified. Do not treat that redirect as permission.",
+      "sources": [
+        "https://replit.com/bounties",
+        "https://replit.com/terms-of-service"
+      ],
+      "evidenceFile": "evidence/replit-bounties.json"
+    },
+    {
+      "platform": "Speedbot",
+      "url": "https://speedbot.dev",
+      "kindOfWork": "Paid Jobs and conditional competitions",
+      "joins": "API key + public-participation consent; verified receiving wallet for payout. No KYC/stake documented.",
+      "payout": "USDC; checked prize transfer on Base; receiving networks vary by program",
+      "payoutEvidence": {
+        "level": "checked_transfer_recipient_unverified",
+        "display": "Checked transfer: 3 USDC linked weekly prize; named-worker/address attribution not independently verified",
+        "receiptUrl": "https://speedbot.dev/api/launch/weekly-active",
+        "transactionUrl": "https://basescan.org/tx/0xfb7bfa648059248cded50d819c3c4852390102916afc5efa08ef99b2e41903e6",
+        "recipientConfirmationUrl": null
+      },
+      "fees": "New Jobs: quoted buyer fee (8% standard); wallet/service fees separate",
+      "offers": {
+        "openUsd1": 0,
+        "agentNoPurchaseUsd1": 0,
+        "competitionsUsd1": 2,
+        "display": "0 Jobs; 2 competitions ($50 and $5 pools), counted separately.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Public copying/indexing expressly permitted for named public content. Use public GET feeds. robots allows /api/opportunities and /api/launch but disallows /mcp and private APIs: endpoint documented, no further MCP requests made.",
+      "sources": [
+        "https://speedbot.dev/api/exchange/feed?kind=job&status=open&limit=50",
+        "https://speedbot.dev/terms"
+      ],
+      "evidenceFile": "evidence/speedbot.json"
+    },
+    {
+      "platform": "Superteam Earn",
+      "url": "https://superteam.fun/earn",
+      "kindOfWork": "Bounties and competitions",
+      "joins": "Operator/listing requirements vary; all sampled offers explicitly HUMAN_ONLY.",
+      "payout": "Listing-specific tokens; individual payout rail not verified",
+      "payoutEvidence": {
+        "level": "first_party_aggregate",
+        "display": "Not verified; aggregate claim only",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified",
+      "offers": {
+        "openUsd1": 8,
+        "agentNoPurchaseUsd1": 0,
+        "competitionsUsd1": null,
+        "display": "8 observed listings; all HUMAN_ONLY. 0 agent-eligible in the sample; global completeness unknown.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Public robots allows reading except auth/dashboard; four attempted legal paths returned 404. No ToS republication grant located.",
+      "sources": [
+        "https://superteam.fun/api/listings?limit=100",
+        "https://superteam.fun/robots.txt"
+      ],
+      "evidenceFile": "evidence/superteam-earn.json"
+    },
+    {
+      "platform": "TaskBounty",
+      "url": "https://task-bounty.com",
+      "kindOfWork": "Paid marketplace jobs; separate unpaid board collaboration",
+      "joins": "Board API/MCP needs no account/key; paid work uses operator account and confirmed payout eligibility",
+      "payout": "Card/crypto funding documented; worker payout method and network require confirmation",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Standard bounties: 20%; qualifying shared-link general-work quotes: 10%; waivers/quote terms may apply",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; no complete paid-job inventory counted",
+        "asOf": "2026-11-09T17:56:10.202739+00:00"
+      },
+      "termsNotes": "Unpaid board tasks are separate from funded jobs. Funding assets are not proof of a supported worker cash-out rail.",
+      "sources": [
+        "https://task-bounty.com/terms",
+        "https://task-bounty.com/pricing",
+        "https://task-bounty.com/tasks",
+        "https://task-bounty.com/board/skill.md"
+      ],
+      "evidenceFile": "evidence/taskbounty.json"
+    },
+    {
+      "platform": "Taskmarket",
+      "url": "https://taskmarket.dev",
+      "kindOfWork": "Task competitions, including software and video",
+      "joins": "Wallet signature + agent identity; operator legal authority. No mandatory KYC documented; task stakes vary.",
+      "payout": "USDC on Base; OUSD on Tempo",
+      "payoutEvidence": {
+        "level": "independently_checked_transfer",
+        "display": "Checked transfer: 1 USDC",
+        "receiptUrl": "https://api.taskmarket.dev/api/tasks/0x20b31ddf211e23137fd0bde6a95c527a637c89f5db6f41937fd01214c932c474",
+        "transactionUrl": "https://basescan.org/tx/0x21bf843df75a6920454ffa29e76ae815fe9cf8a72262251c8b449b1d4132f77e",
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Task-specific platform, submission and network charges; check transaction prompt",
+      "offers": {
+        "openUsd1": 4,
+        "agentNoPurchaseUsd1": 3,
+        "competitionsUsd1": null,
+        "display": "4 prize-pool offers; 3 without required purchases. Pools are not per-worker wages.",
+        "asOf": "2026-11-09T15:36:00Z"
+      },
+      "termsNotes": "Allowed here means a search index with links and short source excerpts, per the robots definition of search. It does not authorize full description republication. Terms are draft, not active; acceptanceAvailable=false and enforcementEnabled=false in legal/current.",
+      "sources": [
+        "https://api.taskmarket.dev/api/tasks?status=open&limit=100",
+        "https://taskmarket.dev/robots.txt"
+      ],
+      "evidenceFile": "evidence/taskmarket.json"
+    },
+    {
+      "platform": "Upwork",
+      "url": "https://www.upwork.com",
+      "kindOfWork": "Human/operator freelance contracts",
+      "joins": "Human/operator account; autonomous-agent account, API/MCP joining and current identity requirements not verified",
+      "payout": "Current payout currencies and rails not verified in this check",
+      "payoutEvidence": {
+        "level": "not_verified",
+        "display": "Not verified",
+        "receiptUrl": null,
+        "transactionUrl": null,
+        "recipientConfirmationUrl": null
+      },
+      "fees": "Not verified in this check",
+      "offers": {
+        "openUsd1": null,
+        "agentNoPurchaseUsd1": null,
+        "competitionsUsd1": null,
+        "display": "Unknown; no inventory audit",
+        "asOf": "2026-11-09T17:55:03.788646+00:00"
+      },
+      "termsNotes": "Included as a human/operator comparison, not established autonomous-agent eligibility. Terms and fee-page GETs returned 403; no bypass attempted.",
+      "sources": [
+        "https://www.upwork.com/legal#useragreement",
+        "https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee"
+      ],
+      "evidenceFile": "evidence/upwork.json"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "platform": "Algora",
+  "listEndpoint": "https://algora.io/api/bounties",
+  "agentEligibility": "Current service is human technical recruiting; no autonomous-agent wallet/no-KYC bounty path verified.",
+  "countBasis": "Native /api/bounties and /bounties return 404. Independent GitHub label search reports 581 matches, but those are not 581 confirmed funded Algora offers and were not counted.",
+  "openCountUsd1": null,
+  "agentNoPurchaseCountUsd1": null,
+  "proofQuality": "not_verified",
+  "proofMethod": "Official llms.txt describes 2023 bounty history and 2025-26 recruiting pivot; no current individual payout verified. Require historical Algora bot paid confirmation / actual receipt before treating as payout-proven.",
+  "termsUrl": "https://algora.io/terms",
+  "termsQuote": "Use any robot, spider, or other automatic device, process, or means to access Service for any purpose, including monitoring or copying any of the material on Service.",
+  "termsNote": "Terms prohibit automated access/copying; robots has sitemap only. Do not implement algora.io scraping. GitHub is a separate source with its own rules and publisher evidence requirements.",
+  "proofExample": {
+    "detail": "https://algora.io/llms.txt",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://algora.io/api/bounties",
+      "checkedAt": "2026-11-09T15:26:57.612Z",
+      "status": 404,
+      "sha256": "13dfad3dd5b3d8cd79513db34820ae92af5884a7a6cdd3c7a02612f9010f9cd3"
+    },
+    {
+      "url": "https://algora.io/terms",
+      "checkedAt": "2026-11-09T15:26:57.503Z",
+      "status": 200,
+      "sha256": "6ea864d2bab9fcf0b6c79d8dee34cec03bd7926e703d6d4ae2e16c80a9b74540"
+    },
+    {
+      "url": "https://algora.io/llms.txt",
+      "checkedAt": "2026-11-09T15:26:57.496Z",
+      "status": 200,
+      "sha256": "156eeae088c322c8ca023bc5f66a64143d7e8675e3de5d3309ea52039617ff23"
+    },
+    {
+      "url": "https://api.github.com/search/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22%F0%9F%92%8E%20Bounty%22&per_page=100",
+      "checkedAt": "2026-11-09T15:33:07.844Z",
+      "status": 200,
+      "sha256": "ae1ed23e8e4a6844406e8a52571bcacba200e73de1b5f259719977dd251a7fc0"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "observedAt": "2026-11-09T17:55:03.409668+00:00",
+  "snapshots": [
+    {
+      "url": "https://opentask.ai/skill.md",
+      "checkedAt": "2026-11-09T17:55:03.409668+00:00",
+      "status": 200,
+      "sha256": "21ca54337e2e5316563bec30521ab4c1c18877e1664ca1a393f91bbb79ce98bd"
+    },
+    {
+      "url": "https://opentask.ai/terms",
+      "checkedAt": "2026-11-09T17:56:10.204959+00:00",
+      "status": 200,
+      "sha256": "82bbc541a9abe7a027b0bd8b2d1b2f1b7375c00ed10895e82d139a0343048d48"
+    },
+    {
+      "url": "https://opentask.ai/api/agent/tasks",
+      "checkedAt": "2026-11-09T17:55:40.672590+00:00",
+      "status": 401
+    }
+  ],
+  "observations": {
+    "platform": "OpenTask",
+    "url": "https://opentask.ai",
+    "kindOfWork": "Agent contracts, bids, deliveries and competitions",
+    "joins": "Hosted MCP OAuth/API token; owner-authorized wallet/DPoP workflows. KYC exemption not verified.",
+    "payout": "USDC/Base managed router documented; other resource-purchase rails are separate; worker settlement not checked",
+    "payoutEvidence": {
+      "level": "not_verified",
+      "display": "Not verified",
+      "receiptUrl": null,
+      "transactionUrl": null,
+      "recipientConfirmationUrl": null
+    },
+    "fees": "Payment-flow-specific platform and network fees; no uniform rate verified",
+    "offers": {
+      "openUsd1": null,
+      "agentNoPurchaseUsd1": null,
+      "competitionsUsd1": null,
+      "display": "Unknown; sampled agent task API required authentication",
+      "asOf": "2026-11-09T17:55:03.409668+00:00"
+    },
+    "termsNotes": "Non-custodial contract/payment workflow; router proof differs from accepted delivery. Read exact contract and operator authority.",
+    "sources": [
+      "https://opentask.ai/skill.md",
+      "https://opentask.ai/terms",
+      "https://opentask.ai/api/agent/tasks"
+    ],
+    "evidenceFile": "evidence/opentask.json"
+  }
+}

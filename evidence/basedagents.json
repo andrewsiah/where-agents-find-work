@@ -1,0 +1,53 @@
+{
+  "platform": "BasedAgents",
+  "listEndpoint": "https://api.basedagents.ai/v1/tasks?status=open&limit=100",
+  "agentEligibility": "Ed25519 signed API writes and wallet binding. Saved first-party skill requires 1 bonded USDC per concurrent BOUNTY task; free tasks need no bond. Bond can be slashed. KYC not documented in inspected flow.",
+  "countBasis": "16 open records: five $2 cashback offers, five $0.25 offers, six unpaid. Each $2 offer requires >=$2.50 settled vendor revenue across two days; all five have payment pending, unverified, no escrow. Zero no-purchase $1+ work.",
+  "openCountUsd1": 5,
+  "agentNoPurchaseCountUsd1": 0,
+  "proofQuality": "independently_checked_transfer",
+  "proofMethod": "GET /v1/tasks/{task_id}/payment; require settled=true, verified=true and tx_hash; compare release transaction to native USDC transfer and exact recipient/amount.",
+  "termsUrl": "https://basedagents.ai/terms",
+  "termsQuote": "The BasedAgents API is provided for legitimate use by agents, developers, and researchers.",
+  "termsNote": "API use explicitly supported; no third-party republication license found. robots Allow: /. Production/high-volume access requires contacting operator per terms.",
+  "proofExample": {
+    "detail": "https://api.basedagents.ai/v1/tasks/task_tCnB8RqX3b3iOrNjXBHVW/payment",
+    "tx": "https://basescan.org/tx/0x45933c20ccb22b04db1ef7d884c73f80fefba5ca25cb2b76a11e4a092d4d9ac3",
+    "amount": "0.10 USDC (proof may be below discovery threshold)"
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://api.basedagents.ai/v1/tasks?status=open&limit=100",
+      "checkedAt": "2026-11-09T15:32:18.915Z",
+      "status": 200,
+      "sha256": "15381b69d6a7d2e3bef01d7cbe5806d8790368d7a11b353ba526a814f4a30fd9"
+    },
+    {
+      "url": "https://basedagents.ai/terms",
+      "checkedAt": "2026-11-09T15:28:46.046Z",
+      "status": 200,
+      "sha256": "bbdddab055c58f19d1ece77f693422aff339215a119f5fc02df2f77652992e1b"
+    },
+    {
+      "url": "https://api.basedagents.ai/v1/tasks/task_tCnB8RqX3b3iOrNjXBHVW/payment",
+      "checkedAt": "2026-11-09T15:29:57.778Z",
+      "status": 200,
+      "sha256": "197414a5708721b0b1480454d90ae09eb6db047e2e741faa7bab84b047fb6288"
+    },
+    {
+      "url": "https://basescan.org/tx/0x45933c20ccb22b04db1ef7d884c73f80fefba5ca25cb2b76a11e4a092d4d9ac3",
+      "checkedAt": "2026-11-09T15:33:06.189Z",
+      "status": 200,
+      "sha256": "c2a42e4b11982643d9e7bfe176dbaaeeb29ea21c0ce6c24428f3484395632c9a"
+    },
+    {
+      "url": "https://basedagents.ai/skill.md",
+      "checkedAt": "2026-11-09T15:28:46.667Z",
+      "status": 200,
+      "sha256": "64054cb1133c747e768c978a14c1e44639a06ac3181238f1111d3046e88dbea9"
+    }
+  ],
+  "eligibilityQuote": "BOUNTY tasks also need capital at risk: each bounty task you hold (claimed or submitted) must be backed by 1 bonded USDC"
+}

@@ -1,0 +1,58 @@
+{
+  "platform": "Taskmarket",
+  "listEndpoint": "https://api.taskmarket.dev/api/tasks?status=open&limit=100",
+  "agentEligibility": "Wallet signature + agent identity; operator legal authority. No mandatory KYC documented; task stakes vary.",
+  "countBasis": "Complete status=open page, hasMore=false; four prize pools, not four guaranteed per-worker payments. Lumen House requires purchases.",
+  "openCountUsd1": 4,
+  "agentNoPurchaseCountUsd1": 3,
+  "proofQuality": "independently_checked_transfer",
+  "proofMethod": "GET completed task detail, inspect awards[].workerPayment, settlementTxHash, workerAddress and settledAt. Open settlement transaction on the chain-specific explorer; distinguish it from escrowTxHash (funding).",
+  "termsUrl": "https://taskmarket.dev/robots.txt",
+  "termsQuote": "Content-Signal: search=yes,ai-train=no,use=reference",
+  "termsNote": "Allowed here means a search index with links and short source excerpts, per the robots definition of search. It does not authorize full description republication. Terms are draft, not active; acceptanceAvailable=false and enforcementEnabled=false in legal/current.",
+  "proofExample": {
+    "detail": "https://api.taskmarket.dev/api/tasks/0x20b31ddf211e23137fd0bde6a95c527a637c89f5db6f41937fd01214c932c474",
+    "tx": "https://basescan.org/tx/0x21bf843df75a6920454ffa29e76ae815fe9cf8a72262251c8b449b1d4132f77e",
+    "amount": "1 USDC"
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://api.taskmarket.dev/api/tasks?status=open&limit=100",
+      "checkedAt": "2026-11-09T15:32:18.677Z",
+      "status": 200,
+      "sha256": "a514f2ecdc1aa9607d8294791bbebac349b199707f1558ced20b66e45a58879a"
+    },
+    {
+      "url": "https://taskmarket.dev/robots.txt",
+      "checkedAt": "2026-11-09T15:26:28.068Z",
+      "status": 200,
+      "sha256": "769b54c88a6a74d8762ccc270bfd36cfa8b466c246e8e1a31a36bfb9b6b74155"
+    },
+    {
+      "url": "https://api.taskmarket.dev/api/tasks/0x20b31ddf211e23137fd0bde6a95c527a637c89f5db6f41937fd01214c932c474",
+      "checkedAt": "2026-11-09T15:34:07.128Z",
+      "status": 200,
+      "sha256": "b684b33bbf50b9c1ea25e3c3c0283293d7adf83344f31fb2c496b0c66b3a1bed"
+    },
+    {
+      "url": "https://basescan.org/tx/0x21bf843df75a6920454ffa29e76ae815fe9cf8a72262251c8b449b1d4132f77e",
+      "checkedAt": "2026-11-09T15:34:47.742Z",
+      "status": 200,
+      "sha256": "19cd14071773abb63cfc57dcff3d549d87e487116a10d57a8f688b025c59dc73"
+    },
+    {
+      "url": "https://taskmarket.dev/legal/terms",
+      "checkedAt": "2026-11-09T15:26:28.912Z",
+      "status": 200,
+      "sha256": "26a7866c4381228da1873abc0ac263c753a96e2dc70250dd8103b6728d574a90"
+    },
+    {
+      "url": "https://api.taskmarket.dev/openapi.json",
+      "checkedAt": "2026-11-09T15:27:46.412Z",
+      "status": 200,
+      "sha256": "910266d86ff333e79c7f813c4b41ea613309de795a25714fdd9163af89dd93eb"
+    }
+  ]
+}

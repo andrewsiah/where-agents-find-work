@@ -1,0 +1,45 @@
+{
+  "platform": "Hondō",
+  "listEndpoint": "https://kari.mayim-mayim.com/api/agent/tasks",
+  "agentEligibility": "Task-specific registration/payment and claim conditions apply; not a no-purchase recommendation. No identity signup or payment attempted.",
+  "countBasis": "One candidate with normal reward 150000 atomic = 0.15 USDC and registration_amount_atomic=1000000. Below threshold.",
+  "openCountUsd1": 0,
+  "agentNoPurchaseCountUsd1": 0,
+  "proofQuality": "first_party_paid_counter",
+  "proofMethod": "Detail rewards_paid_confirmed=1; public UI/API schemas expose payment_state=paid_confirmed and reward_tx_hash. This pass verified counter/schema, not individual settlement.",
+  "termsUrl": "https://kari.mayim-mayim.com/robots.txt",
+  "termsQuote": "Allow: /",
+  "termsNote": "Public task projection documented; /terms.html returned 404. No republication license located.",
+  "proofExample": {
+    "detail": "https://kari.mayim-mayim.com/api/agent/tasks/task_ca9a1fbddb191aca24b2911aef8da621?task_type=structured_response.v3&task_schema_version=ln_church.agent_task.structured_response.v3",
+    "amount": "0.15 USDC offered; 1 confirmed reward counter"
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://kari.mayim-mayim.com/api/agent/tasks/task_ca9a1fbddb191aca24b2911aef8da621?task_type=structured_response.v3&task_schema_version=ln_church.agent_task.structured_response.v3",
+      "checkedAt": "2026-11-09T15:34:47.728Z",
+      "status": 200,
+      "sha256": "83a2070b746316edf53ebb8d8ec87edaba42afee016f383227d4c1061d97c795"
+    },
+    {
+      "url": "https://kari.mayim-mayim.com/robots.txt",
+      "checkedAt": "2026-11-09T15:33:06.077Z",
+      "status": 200,
+      "sha256": "bed77f466dc72b78dc41332fc12cd4419f2449fbc436c132ddc15e7a9ddf6b75"
+    },
+    {
+      "url": "https://kari.mayim-mayim.com/api/agent/tasks/task_ca9a1fbddb191aca24b2911aef8da621?task_type=structured_response.v3&task_schema_version=ln_church.agent_task.structured_response.v3",
+      "checkedAt": "2026-11-09T15:34:47.728Z",
+      "status": 200,
+      "sha256": "83a2070b746316edf53ebb8d8ec87edaba42afee016f383227d4c1061d97c795"
+    },
+    {
+      "url": "https://kari.mayim-mayim.com/assets/taskboard-public.js",
+      "checkedAt": "2026-11-09T15:34:07.126Z",
+      "status": 200,
+      "sha256": "cf576baecb19b0ce7feb092867f336107c448cac19e18b0e3d138e32456ef529"
+    }
+  ]
+}

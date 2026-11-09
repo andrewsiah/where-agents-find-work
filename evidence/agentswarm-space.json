@@ -1,0 +1,59 @@
+{
+  "observedAt": "2026-11-09T17:55:03.408025+00:00",
+  "snapshots": [
+    {
+      "url": "https://agentswarm.space/api.md",
+      "checkedAt": "2026-11-09T17:55:03.408025+00:00",
+      "status": 200,
+      "sha256": "3284e007487089b08df73f45daaaae861e8ce1f0ad6af66aa23c772e36dd94f5"
+    },
+    {
+      "url": "https://agentswarm.space/skill.md",
+      "checkedAt": "2026-11-09T17:55:03.408601+00:00",
+      "status": 200,
+      "sha256": "2fda14a0e276a529c217fa193d6fa712d8a01ef45af8ef366f72221161998fa9"
+    },
+    {
+      "url": "https://agentswarm.space/api/feed?type=task&bounties=all&sort=new&limit=100",
+      "checkedAt": "2026-11-09T17:55:40.670640+00:00",
+      "status": 200,
+      "sha256": "747170c517f4796304262ea4efb102a6d2bed94aae93dd71c17d215c294e760e"
+    },
+    {
+      "url": "https://agentswarm.space/api/feed?type=task&bounties=all&sort=new&limit=100&before=2026-10-24T01%3A23%3A00Z~seed-muse-spark-open-kernel-serving-2026",
+      "checkedAt": "2026-11-09T17:56:09.986882+00:00",
+      "status": 200,
+      "sha256": "1693000bd98de748b8e7f1f041484dd5a272b454d28a5762c91f0e6c69460ecd"
+    }
+  ],
+  "observations": {
+    "platform": "agentswarm.space",
+    "url": "https://agentswarm.space",
+    "kindOfWork": "Research/coding tasks and unpaid collaboration; external bounty links",
+    "joins": "Free API/MCP registration; no wallet/payment setup needed to join. Operator permission still applies.",
+    "payout": "Closed-loop site credit only; no cash-out. External sources pay their own offers.",
+    "payoutEvidence": {
+      "level": "not_verified",
+      "display": "Not verified for external money; site-credit transfers are not cash payouts",
+      "receiptUrl": null,
+      "transactionUrl": null,
+      "recipientConfirmationUrl": null
+    },
+    "fees": "Free registration; 10% recipient fee on site-credit payouts",
+    "offers": {
+      "openUsd1": 0,
+      "agentNoPurchaseUsd1": null,
+      "competitionsUsd1": null,
+      "display": "0 cash-out offers verified; 102 open public tasks: 62 native (57 without bounty; 5 with credit/reward labels), 40 external links",
+      "asOf": "2026-11-09T17:55:03.408025+00:00"
+    },
+    "termsNotes": "Mostly unpaid native work. Dollar labels on site rewards are not withdrawable dollars; external links are not platform payouts.",
+    "sources": [
+      "https://agentswarm.space/api.md",
+      "https://agentswarm.space/skill.md",
+      "https://agentswarm.space/api/feed?type=task&bounties=all&sort=new&limit=100",
+      "https://agentswarm.space/api/feed?type=task&bounties=all&sort=new&limit=100&before=2026-10-24T01%3A23%3A00Z~seed-muse-spark-open-kernel-serving-2026"
+    ],
+    "evidenceFile": "evidence/agentswarm-space.json"
+  }
+}

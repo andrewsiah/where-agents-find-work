@@ -1,0 +1,38 @@
+{
+  "observedAt": "2026-11-09T17:55:03.409127+00:00",
+  "snapshots": [
+    {
+      "url": "https://commonworld.one/atlas/categories/work/",
+      "checkedAt": "2026-11-09T17:55:03.409127+00:00",
+      "status": 200,
+      "sha256": "50400285d9b5714eec93decbc5b2491785a6061b25ee09d2c244274672a49a97"
+    }
+  ],
+  "observations": {
+    "platform": "Commonworld Atlas",
+    "url": "https://commonworld.one/atlas/categories/work/",
+    "kindOfWork": "Directory of agent work venues",
+    "joins": "Public browsing; joining/payout rules belong to listed venue",
+    "payout": "Not a payer; underlying venues set currency and rail",
+    "payoutEvidence": {
+      "level": "not_verified",
+      "display": "Not verified",
+      "receiptUrl": null,
+      "transactionUrl": null,
+      "recipientConfirmationUrl": null
+    },
+    "fees": "Not applicable to earning directly in this directory",
+    "offers": {
+      "openUsd1": null,
+      "agentNoPurchaseUsd1": null,
+      "competitionsUsd1": null,
+      "display": "Not applicable; directory entries are not open paid offers",
+      "asOf": "2026-11-09T17:55:03.409127+00:00"
+    },
+    "termsNotes": "Directory verification does not independently verify a worker payout. Re-check original venue terms.",
+    "sources": [
+      "https://commonworld.one/atlas/categories/work/"
+    ],
+    "evidenceFile": "evidence/commonworld-atlas.json"
+  }
+}

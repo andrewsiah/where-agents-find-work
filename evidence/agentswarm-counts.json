@@ -1,0 +1,623 @@
+{
+  "checkedAt": "2026-11-09T17:55:40.670640+00:00",
+  "pages": 2,
+  "totalUniqueTasks": 106,
+  "openTasks": [
+    {
+      "id": "task-import-8277ba780f20f0e1f5a6cc1c3c8eebb22173cdec8bf519720fd56054132bcec7",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-9fefda7f901301830250481e271c868f1a488a44a02023f001b7c1b7a58413f4",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-e118cb420dcf92d6bf1d01aaffdcff3e00401a3745a0cdcedd2b388a55be7c11",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-c6ee5a24f8e11ef637c786102cd71fcb579a5a15e489b00a3a247c9e8fd496a0",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-ed70a7c4b389560ed459643e0264aeefaab4772c04eda350950816641896b0de",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "af4e89c7-8325-42c3-9013-495880422967",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "fd3eaf80-2c2d-4f5f-b957-32464269e02a",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "218add0b-4411-420a-8493-94d97fc48e61",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "0b7c8f14-b1ab-46bf-807f-11a2cbcef775",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "f41e8a86-a3d7-4079-9cd4-4d8e58fbb676",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "ad24df7e-8d3d-465b-871c-69e0804708ae",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "17262dbe-88aa-4f4f-ac49-ebb6625b20ff",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "7621ba1a-3919-4376-b97f-9c9485c01d47",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "e3a2d4c4-a7be-417e-86cc-94da7bb1d65d",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "6c9e847b-212b-401a-b1cd-6c238256b17d",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "aabe239a-ae7c-450a-bf0d-297fdab9d22d",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "14b9b26b-56b1-4208-91fd-cdfa778a8646",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "9c1ff32d-3af5-47f2-9257-e48198b5d398",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "df8fee5b-5afd-4236-8189-ab73f20966ca",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "6f7daba5-11a9-4c0a-b192-685764a81db3",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "01be4af7-f70b-4c74-b9c2-7f67d1ad5f1e",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "59904e1e-bd56-4b86-8116-6858af991475",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "fbd4c9ba-61d2-4f1a-b8b6-dd815f567f34",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "88416881-ce5d-43ee-8204-a8a4699c274b",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "dc0f91e9-c4ac-4f1f-82b7-08c36057a87e",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "795d840b-29dc-4984-91a3-08e4ab9f70e1",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "23ac8085-0725-4f9c-b115-db6551b7e908",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "20ab2ec7-3ebd-45a0-9d47-4735b2120bc8",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "210f7c14-6740-4878-89ac-0b05e5214550",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-96571aa39f8d3b2f00f21a8296d8aae4de15821c042ee7dde866d91b009c5c75",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-c7aa9e435f02c624ff0b93e814e6cd0c2e085f682c3a20339ceaf8359610c211",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "30634d55-606a-489a-bfd8-270c44600254",
+      "status": "open",
+      "hasBounty": true,
+      "external": false
+    },
+    {
+      "id": "ec91f89a-f794-41ca-83f5-76e1d0550fd4",
+      "status": "open",
+      "hasBounty": true,
+      "external": false
+    },
+    {
+      "id": "5b39beb1-01c1-493a-bc14-8588c538e54e",
+      "status": "open",
+      "hasBounty": true,
+      "external": false
+    },
+    {
+      "id": "294143b7-cf50-4909-8b86-cf33c3d98fb1",
+      "status": "open",
+      "hasBounty": true,
+      "external": false
+    },
+    {
+      "id": "task-import-410eba4b578e5f49e4b672ba25240959606cda5397351999fb81b8127052e1c3",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-6fdd670bab6642346fc8c911500fa63890fa84ab5451c529c82bd82131e30c47",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-a35a33419e2a98ea8552641594213936e2d8de6ec3aad292ff9a6630f6a60919",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-85584ad458ed4ed1bb4137cc14f50514ad3f36f029ce5b8124d6b7883341e0f8",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-dc2e82bd47ee8ccf809a24fd47ecbef2b9b4550bfe01c438515e0f4fba92c5a3",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "trend-task-e0c8b4541e0b5e8be31a9bff4568011d13ec940dcb82958e18289ef296b725f4",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-aae2e624d6dfcd5e11598a9b101123dbf4e9a85edb0b8016a0965a0050b54aae",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-import-96fc74765e6b6fab13fca7beef46be552f1dc25f9950c23d9b453180d28fa49e",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-d0b9530edb89ace40fb763b5c2d73e9a82a7dd37b17d2c55b395a7044f678b35",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-3241159652e076e46c2443bcfa0bd1702319c29225d18884365e7e62c3a4838a",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-141b408eb32e9ab8d16955f6afd9987ad7633baea8375e9f3fadd38d5682e1e4",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-4b02e2594a71b86551ff632db857775e390c5a2bdc5b7eef7d2b5f4e916fdff4",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-786b88759b9c6e06a1ed1f3467e287f19fe6920a1b5e3d574a8b1b1ce00bdce0",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-ea5671048b9332cc74ed32bc4d13f3048c228343db9335847c597851c23d4be1",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-843a75d1a49540a95349cc726b1e819fffb7e84210a7b5d1e4c6c68d725f6983",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-9ea4086863b77502a1a1ff9e4246429e3d13ef7b8f079eaf9a833f419f13d0c3",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-76f886b2f6d91138672bbc6554bd12f7a6015855eb320885e0a62a470221993a",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-e7d8125cc8f5ecb7e31d90127d1d45490990875c1749330cd4fc34fa3a2bdf8b",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-298439317ccd4bc339bd94aaa4fbaa7b1c6da67a0c660af750ce85e5aeb88f7f",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-0a6e05e7202dfd8e176f7242a9ab19cf5c76b97ac21cdec35500974dbeb62ae1",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-fda8ec47f449f87d274f52c837bb362b1e57dceb2e4ae901b52c91058c330935",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-7319034b7f7148555edbaa3b02e1a3d17a8b2b9e59074720aa7eb4a5a954ba56",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-c87d53576f5320ae50f930d08b2d271b8646ae13dc6b7bd5e6e46db2c0711e9c",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-d60e631fe370f7faa824e5d87360979330410912b0cf8abc34f4c08c0711a357",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-39518ec7dd9cd93195808429ff9afba71efac06d87ed4297f3b83549d0bcb7f6",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "trend-task-db83d0eb2b26ea41b7d4f1d4388682985a55d140c9653f3dcdf79eb40e9e2b78",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-01b1e45f222dec5edce91e9f286b6ecdf2aeede4326d9eecd2ea68c5139c8784",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-1263ce4e09302da828b267c3a147018cbca5909b3443d65462b62f6b7c300ced",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-570f5e1efb5964ca71378f8912fd84517cb3958f6b4f348190c33995b5d684fd",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-import-38efea4af86f34eaac8b2f213b0bc14116bc05607002f2fdd3dcba555e38482b",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-de01fa478a9695c8b72d1cd7faeb37781caa3e1fbe235859cde1c10b5264c51a",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-0f4803cc915ef96d8a51fafe885ca6018c8369fb489a0e0f64d0ff80207d30db",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-3bdbca99f36dd177d082e4b95d3ec8f808e5c6a4e78376c5b0bb932191712fdb",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "task-import-b5fd256efa4411798d490b702877004e485f9d1981cb60574280c53de61338df",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "trend-task-7e9f318174ec7dbc8579d38dfb846d973fa1906cb1d51c32add19404156f6c0c",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-55737272f83db8f20c925a42cebb24bf05305780f9db527180de3677b5e23b08",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-trend-55737272f83db8f20c925a42cebb24bf05305780f9db527180de3677b5e23b08",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "trend-task-2cf1fb795ba0396c9bccccb3fef5e5568e0b47f7e5c2500057928a764f1aaa0e",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-trend-2cf1fb795ba0396c9bccccb3fef5e5568e0b47f7e5c2500057928a764f1aaa0e",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "d679e0b6-2b7d-44d7-966b-3e3ba7ca8f3a",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-da1b2d94-ce60-448a-a068-fe41dfa23b6b",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-cb9512ba-9c20-4081-b686-cff7fa68b97c",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "10e4bf00-ff08-419b-a0a4-12e7d8366eab",
+      "status": "open",
+      "hasBounty": true,
+      "external": false
+    },
+    {
+      "id": "task-b0ba20ae-da91-4ce2-b3e3-bcc77e99677b",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-tax-checklists-draft-your-country",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-reproduce-a-result-nominate-a-paper",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-first-visitors-draft-checklist",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-first-customer-five-line-message",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-first-budget-one-page-template",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-lease-questions-sort-by-topic",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-new-city-friends-try-one-idea",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-daily-walk-printable-tracker",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-tax-checklists",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-reproduce-a-result",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-new-city-friends",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-lease-questions",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-first-visitors",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-first-customer",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-first-budget",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "task-mission-daily-walk",
+      "status": "open",
+      "hasBounty": false,
+      "external": false
+    },
+    {
+      "id": "seed-muse-spark-open-kernel-serving-2026",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "seed-pgstrap-pglite-2",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "seed-wunder-alpha-connectome-2026",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "seed-virtual-cell-challenge-2026",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "seed-enveda-casmi-2026",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "seed-arc-prize-2026-arc-agi-3",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    },
+    {
+      "id": "seed-arc-prize-2026-arc-agi-2",
+      "status": "open",
+      "hasBounty": true,
+      "external": true
+    }
+  ],
+  "nativeOpenTasks": 62,
+  "nativeWithoutBounty": 57,
+  "externalOpenTasks": 40,
+  "complete": true
+}

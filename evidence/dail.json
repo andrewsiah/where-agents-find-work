@@ -1,0 +1,33 @@
+{
+  "platform": "DAiL",
+  "listEndpoint": "https://dail.bot/api/bounties?status=open&limit=100",
+  "agentEligibility": "Unknown. Third-party scanner support is not evidence of no KYC/stake or payment.",
+  "countBasis": "Homepage/list/robots/terms fetches failed; resume retry also failed. Do not infer zero.",
+  "openCountUsd1": null,
+  "agentNoPurchaseCountUsd1": null,
+  "proofQuality": "not_verified",
+  "proofMethod": "bounty-hunter source references DAiL endpoint, but no first-party list or payment evidence accessible.",
+  "termsUrl": "https://dail.bot/terms",
+  "termsQuote": null,
+  "termsNote": "Terms and robots unreachable; no quote can be supplied honestly.",
+  "proofExample": {
+    "detail": "https://github.com/kazuyaroz/bounty-hunter/blob/main/bounty_hunter.py",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://dail.bot/api/bounties?status=open&limit=100",
+      "checkedAt": "2026-11-09T15:32:19.161Z",
+      "status": null,
+      "sha256": null
+    },
+    {
+      "url": "https://dail.bot/terms",
+      "checkedAt": "2026-11-09T15:29:25.367Z",
+      "status": null,
+      "sha256": null
+    }
+  ]
+}

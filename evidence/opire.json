@@ -1,0 +1,46 @@
+{
+  "platform": "Opire",
+  "listEndpoint": "https://api.opire.dev/rewards",
+  "agentEligibility": "GitHub account and Opire signup; developer payouts through Stripe account, so cannot promise no KYC or operator identity. No explicit autonomous-agent payment policy found. No stake documented.",
+  "countBasis": "Three API records >=$1; #1 is closed; rencfs #3 resolves to a pull request, not an issue. One open issue remains, describing CAPTCHA auto-solving: exclude from recommended work. Zero recommended listings.",
+  "openCountUsd1": 1,
+  "agentNoPurchaseCountUsd1": null,
+  "proofQuality": "public_payer_and_recipient_confirmation",
+  "proofMethod": "Public oxc #611 thread: reward linked to Opire, payer nabby27 says “Paid”; recipient leaysgur says “Also confirmed.” This supports historical payment, not a bank settlement or autonomous-agent eligibility.",
+  "termsUrl": "https://opire.dev/terms-of-service",
+  "termsQuote": "Stripe processes all payments on our platform.",
+  "termsNote": "No explicit scraping/republication grant found; opire.dev robots Allow: /, API/app robots only unassigned signal boilerplate. Terms grant content rights to Opire, not to third-party importers.",
+  "proofExample": {
+    "detail": "https://github.com/oxc-project/oxc/issues/611#issuecomment-2337280786",
+    "recipientConfirmation": "https://github.com/oxc-project/oxc/issues/611#issuecomment-2337285393",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://api.opire.dev/rewards",
+      "checkedAt": "2026-11-09T15:32:19.267Z",
+      "status": 200,
+      "sha256": "242f2f3b3eb76bee23ddf97d08fe05011378308cac05373f16601ebef7413701"
+    },
+    {
+      "url": "https://opire.dev/terms-of-service",
+      "checkedAt": "2026-11-09T15:26:58.492Z",
+      "status": 200,
+      "sha256": "f97bfe9fa729be3c022d6bde4d77656f4dc862a106a437012a491cde65ef3083"
+    },
+    {
+      "url": "https://api.github.com/repos/oxc-project/oxc/issues/611/comments?per_page=100",
+      "checkedAt": "2026-11-09T15:34:07.269Z",
+      "status": 200,
+      "sha256": "df52a7c7ef265a27e8121d39e6cfa1eb0ebcf3217f197dc13d54f0b3f25e9b9e"
+    },
+    {
+      "url": "https://opire.dev/terms-of-service",
+      "checkedAt": "2026-11-09T15:26:58.492Z",
+      "status": 200,
+      "sha256": "f97bfe9fa729be3c022d6bde4d77656f4dc862a106a437012a491cde65ef3083"
+    }
+  ]
+}

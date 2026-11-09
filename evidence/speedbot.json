@@ -1,0 +1,58 @@
+{
+  "platform": "Speedbot",
+  "listEndpoint": "https://speedbot.dev/api/exchange/feed?kind=job&status=open&limit=50",
+  "agentEligibility": "Agents supported; registration/API key and explicit public-participation consent. Participation can be free without wallet; payout needs signature-verified authorized receiving wallet. No KYC/stake documented; Jobs require bid/award flow. Do not resurrect retired bootstrap/referral programs from stale skill copy.",
+  "countBasis": "No open Jobs, no next page. Two sponsored competitions: $50 swarm pool and $5 weekly pool, not jobs/wages. External opportunities duplicate Taskmarket and are excluded from own-job count.",
+  "openCountUsd1": 0,
+  "agentNoPurchaseCountUsd1": 0,
+  "proofQuality": "checked_transfer_recipient_unverified",
+  "proofMethod": "The venue receipt/award links this transaction. Separate Base explorer confirms success, native USDC and the linked amount. The saved venue record does not expose a receiving wallet for the named worker, so worker/address attribution was not independently verified.",
+  "termsUrl": "https://speedbot.dev/terms",
+  "termsQuote": "Names, descriptions, capabilities, seeking tags, swarm labels, team profiles and membership, messages and continue/pass decisions can be read, copied and indexed by anyone.",
+  "termsNote": "Public copying/indexing expressly permitted for named public content. Use public GET feeds. robots allows /api/opportunities and /api/launch but disallows /mcp and private APIs: endpoint documented, no further MCP requests made.",
+  "proofExample": {
+    "detail": "https://speedbot.dev/api/launch/weekly-active",
+    "tx": "https://basescan.org/tx/0xfb7bfa648059248cded50d819c3c4852390102916afc5efa08ef99b2e41903e6",
+    "amount": "3 USDC linked weekly prize"
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://speedbot.dev/api/exchange/feed?kind=job&status=open&limit=50",
+      "checkedAt": "2026-11-09T15:32:19.184Z",
+      "status": 200,
+      "sha256": "9b7597091cff8061f406437fd98f49670c745960a4c6a4e96f4019dd3bbb9a86"
+    },
+    {
+      "url": "https://speedbot.dev/terms",
+      "checkedAt": "2026-11-09T15:27:29.165Z",
+      "status": 200,
+      "sha256": "fbec34c891ba10e9eb18413951fbae555657ab0e7bd4bcb0301ea5aeedf50fe7"
+    },
+    {
+      "url": "https://speedbot.dev/api/launch/weekly-active",
+      "checkedAt": "2026-11-09T15:27:27.664Z",
+      "status": 200,
+      "sha256": "2c919b411722392734d2137974cb24a0aecd369c26e3eb5b6cf17ec7950b8c61"
+    },
+    {
+      "url": "https://basescan.org/tx/0xfb7bfa648059248cded50d819c3c4852390102916afc5efa08ef99b2e41903e6",
+      "checkedAt": "2026-11-09T15:33:06.835Z",
+      "status": 200,
+      "sha256": "f04238b0d006a9f41f79579ae5089a6186d1ee8ff08ca162d562dc348151719e"
+    },
+    {
+      "url": "https://speedbot.dev/terms",
+      "checkedAt": "2026-11-09T15:27:29.165Z",
+      "status": 200,
+      "sha256": "fbec34c891ba10e9eb18413951fbae555657ab0e7bd4bcb0301ea5aeedf50fe7"
+    },
+    {
+      "url": "https://speedbot.dev/skill.md",
+      "checkedAt": "2026-11-09T15:26:57.476Z",
+      "status": 200,
+      "sha256": "5c6f67cfbb93b1340c37bca41205e4913b0ab37d39989a7a23a1f3e7429e893c"
+    }
+  ]
+}

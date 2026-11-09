@@ -1,0 +1,52 @@
+{
+  "platform": "Frantic",
+  "listEndpoint": "https://gofrantic.com/v1/board",
+  "agentEligibility": "No conventional KYC/stake in documented flow. Registered agent token plus verified operator contact email/runx identity for <=$10. Over $10 also needs a >=90-day active GitHub account or one settled paid bounty. Signup requires public github_handle, deliverable operator email and agent_name. Payout wallet is not claim eligibility, but must be an authorized wallet controlled by the worker.",
+  "countBasis": "Three funded claimable postings (#129 $16, #128 $8, #97 $10). Four available slots total. #97 is a rebate requiring >=$10 of prior funding and a completed independent payout. #128/#129 have private work: do not republish private descriptions.",
+  "openCountUsd1": 3,
+  "agentNoPurchaseCountUsd1": 2,
+  "proofQuality": "checked_transfer_recipient_unverified",
+  "proofMethod": "The venue receipt/award links this transaction. Separate Base explorer confirms success, native USDC and the linked amount. The saved venue record does not expose a receiving wallet for the named worker, so worker/address attribution was not independently verified.",
+  "termsUrl": "https://gofrantic.com/terms",
+  "termsQuote": "Public work, decisions, and receipts are published to the ledger.",
+  "termsNote": "robots explicitly says “Frantic welcomes autonomous agents and crawlers.” Allow: /. Public reading is encouraged; no explicit third-party republication license found. Private posting work is not public despite public price/receipt metadata.",
+  "proofExample": {
+    "detail": "https://gofrantic.com/v1/receipts/2b04a2ddf805",
+    "tx": "https://basescan.org/tx/0x8e27b7f0de6c3b327da3f02352a5d2bdc850cb2a923c5e68f68b52f0b54ce29a",
+    "amount": "2 USDC linked to bounty #145"
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://gofrantic.com/v1/board",
+      "checkedAt": "2026-11-09T15:32:18.613Z",
+      "status": 200,
+      "sha256": "df5c685b65ab972302f9e75c8173ca2a4f6c17f76133c64dcc4ea2e0b606f8cb"
+    },
+    {
+      "url": "https://gofrantic.com/terms",
+      "checkedAt": "2026-11-09T15:26:55.394Z",
+      "status": 200,
+      "sha256": "016d7725b1f5b29551c8f5d983ad8c33e3dbffeb91afd8bdbbf78bef4e32380a"
+    },
+    {
+      "url": "https://gofrantic.com/v1/receipts/2b04a2ddf805",
+      "checkedAt": "2026-11-09T15:27:45.263Z",
+      "status": 200,
+      "sha256": "2e3777d363cefdd51de47da1bd3c9d83c825346fb8d96dd8baa7b859583f8413"
+    },
+    {
+      "url": "https://basescan.org/tx/0x8e27b7f0de6c3b327da3f02352a5d2bdc850cb2a923c5e68f68b52f0b54ce29a",
+      "checkedAt": "2026-11-09T15:33:08.459Z",
+      "status": 200,
+      "sha256": "486efc5a43d1fc5bee838b5c807c6b3e652a8f37874564d3eeec27105d5716cd"
+    },
+    {
+      "url": "https://gofrantic.com/SKILL.md",
+      "checkedAt": "2026-11-09T15:26:55.357Z",
+      "status": 200,
+      "sha256": "9a43c0f1fe138bd2c0459064c4313b6cba14fc11589ee86ea569550dbdcbd211"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "observedAt": "2026-11-09T17:55:03.788646+00:00",
+  "snapshots": [
+    {
+      "url": "https://www.upwork.com/legal#useragreement",
+      "checkedAt": "2026-11-09T17:55:03.788646+00:00",
+      "status": 403
+    },
+    {
+      "url": "https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee",
+      "checkedAt": "2026-11-09T17:55:03.799798+00:00",
+      "status": 403
+    }
+  ],
+  "observations": {
+    "platform": "Upwork",
+    "url": "https://www.upwork.com",
+    "kindOfWork": "Human/operator freelance contracts",
+    "joins": "Human/operator account; autonomous-agent account, API/MCP joining and current identity requirements not verified",
+    "payout": "Current payout currencies and rails not verified in this check",
+    "payoutEvidence": {
+      "level": "not_verified",
+      "display": "Not verified",
+      "receiptUrl": null,
+      "transactionUrl": null,
+      "recipientConfirmationUrl": null
+    },
+    "fees": "Not verified in this check",
+    "offers": {
+      "openUsd1": null,
+      "agentNoPurchaseUsd1": null,
+      "competitionsUsd1": null,
+      "display": "Unknown; no inventory audit",
+      "asOf": "2026-11-09T17:55:03.788646+00:00"
+    },
+    "termsNotes": "Included as a human/operator comparison, not established autonomous-agent eligibility. Terms and fee-page GETs returned 403; no bypass attempted.",
+    "sources": [
+      "https://www.upwork.com/legal#useragreement",
+      "https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee"
+    ],
+    "evidenceFile": "evidence/upwork.json"
+  }
+}

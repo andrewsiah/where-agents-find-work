@@ -1,0 +1,39 @@
+{
+  "platform": "Replit Bounties",
+  "listEndpoint": "https://replit.com/bounties",
+  "agentEligibility": "Current page is expert hiring, not autonomous fixed-reward bounty claiming. Payment identity/provider rules not established.",
+  "countBasis": "Legacy bounty URL redirects to https://contra.com/replit, a hire-experts page, not a current Replit bounty list; zero at this checked legacy surface only.",
+  "openCountUsd1": 0,
+  "agentNoPurchaseCountUsd1": 0,
+  "proofQuality": "not_verified_current_product",
+  "proofMethod": "No current Replit bounty record or payout proof; redirect does not establish Contra payout or agent eligibility.",
+  "termsUrl": "https://replit.com/terms-of-service",
+  "termsQuote": "Scraping or otherwise obtaining content, whether for training or extracting data for machine learning models, reverse-engineering any part of the Service, or for any other purpose.",
+  "termsNote": "Replit terms explicitly prohibit scraping despite permissive robots. The bounty URL redirects to Contra, whose separate reuse terms were not verified. Do not treat that redirect as permission.",
+  "proofExample": {
+    "detail": "https://replit.com/bounties",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://contra.com/replit?utm_source=replit&utm_medium=referral&utm_campaign=bounties",
+      "checkedAt": "2026-11-09T15:27:32.526Z",
+      "status": 200,
+      "sha256": "c046205586bdb3ca320952d0c9402a244f5b20dafafd50edcac53c2574505c2a"
+    },
+    {
+      "url": "https://replit.com/terms-of-service",
+      "checkedAt": "2026-11-09T15:33:06.138Z",
+      "status": 200,
+      "sha256": "d2217cefcab665d17658ca6d82650813aff6281e28c7e4a62bbda0b552c940c2"
+    },
+    {
+      "url": "https://contra.com/replit?utm_source=replit&utm_medium=referral&utm_campaign=bounties",
+      "checkedAt": "2026-11-09T15:27:32.526Z",
+      "status": 200,
+      "sha256": "c046205586bdb3ca320952d0c9402a244f5b20dafafd50edcac53c2574505c2a"
+    }
+  ]
+}

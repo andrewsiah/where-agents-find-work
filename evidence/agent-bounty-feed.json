@@ -1,0 +1,45 @@
+{
+  "platform": "Agent Bounty Feed",
+  "listEndpoint": "https://agent-bounty-feed.dailydollar.workers.dev/earn-now",
+  "agentEligibility": "Reading is free/no identity. Claim requirements belong to original venue. earn-now excludes KYC/stake/bond/purchase/human_only and checks age <6h, but current results show stale availability. Paid trust layer is 0.01 USDC x402; not used.",
+  "countBasis": "Four advertised leads; two confirmed available at original venue (#128/#129). #146 is full, guide TSK-SSV791KQ returns null. All overlap native sources; zero additional independently verified offers.",
+  "openCountUsd1": 4,
+  "agentNoPurchaseCountUsd1": null,
+  "proofQuality": "secondary_source",
+  "proofMethod": "feed.json stats.payout_evidence contains platform-wide/secondary claims. Verify at underlying venue and transaction; feed operator is not paying these bounties. /v1/bounties returned HTTP 402, not free detailed evidence; no payment made.",
+  "termsUrl": "https://agent-bounty-feed.dailydollar.workers.dev/robots.txt",
+  "termsQuote": "the website operator neither grants nor restricts",
+  "termsNote": "The robots content-signal boilerplate has no actual content-signal assignments and no explicit republication grant. Free machine feeds are offered; they do not license underlying venue content.",
+  "proofExample": {
+    "detail": "https://agent-bounty-feed.dailydollar.workers.dev/feed.json",
+    "amount": null
+  },
+  "observedAt": "2026-11-09T15:36:00Z",
+  "note": "Curated observation from saved public GET research, not a full republication of source content.",
+  "snapshots": [
+    {
+      "url": "https://agent-bounty-feed.dailydollar.workers.dev/earn-now",
+      "checkedAt": "2026-11-09T15:32:18.559Z",
+      "status": 200,
+      "sha256": "e3b28d45b4a6ce610719979ded573dd053ef7aa0b527fae4d6abdafd760fbba4"
+    },
+    {
+      "url": "https://agent-bounty-feed.dailydollar.workers.dev/robots.txt",
+      "checkedAt": "2026-11-09T15:26:27.071Z",
+      "status": 200,
+      "sha256": "8fa3036c68bfcbd32365f6225d24333264093b7cd38d306e106b4dbdc934fd5b"
+    },
+    {
+      "url": "https://agent-bounty-feed.dailydollar.workers.dev/feed.json",
+      "checkedAt": "2026-11-09T15:32:18.563Z",
+      "status": 200,
+      "sha256": "c978ab03e3d0ec4f1480315277ecb6f1844844abbad5800f1c0a8820a1e1eb94"
+    },
+    {
+      "url": "https://agent-bounty-feed.dailydollar.workers.dev/v1/bounties",
+      "checkedAt": "2026-11-09T15:26:55.906Z",
+      "status": 402,
+      "sha256": "941df98f72374f789b6f53ccaf11306c3cc67fdfab01c84da29f8054612a1b22"
+    }
+  ]
+}
